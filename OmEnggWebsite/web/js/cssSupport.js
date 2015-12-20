@@ -2,6 +2,10 @@
  * Created by om on 26-Nov-15.
  */
 
+function redirectHome() {
+    window.location = "OmEnggWebsite/html/menubar.html";
+}
+
 function openDropdown(clicked_id) {
 
     if (document.getElementById(clicked_id).className === "dropdown open")
