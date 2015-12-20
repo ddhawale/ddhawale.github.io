@@ -76,6 +76,8 @@ function loadContainer(menu) {
         $('#contents').load('check_valve.html #check_valve');
     if (menu === "place_order")
         $('#contents').load('place_order.html #place_order');
+    if (menu === "thanks")
+        $('#contents').load('thanks.html #thanks');
     if (menu === "contact_us") {
         $('#contents').load('contact_us.html #contact_us', function () {
             load_map();
