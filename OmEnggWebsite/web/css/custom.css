@@ -1,0 +1,111 @@
+.iframe-styling{
+    border: none;
+}
+
+.table_style{
+    border: none;
+    cellspacing: 0;
+    cellpadding: 0;
+    width: 100%;
+}
+
+.td_style{
+    margin-top: 7px;
+    rowspan:2;
+    align:left;
+    valign:top;
+}
+
+.heading_style {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    color: inherit;
+    font-size: 25px;
+}
+
+.text_style {
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 1.5;
+    color: inherit;
+}
+
+.tr_style{
+    line-height: 3;
+}
+
+table.primary tr:nth-child(odd) {
+    background-color: #757575;
+}
+table.primary tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.form_class{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form_style{
+    line-height: 2;
+}
+
+.form_style_margin{
+    margin-top: 5%;
+    margin-left: 23%;
+}
+
+.image_style{
+    width: 300px;
+    height: 250px;
+}
+
+.table{
+    width: 100%;
+}
+
+.order_more {
+    margin-top: 1%;
+    text-align: center;
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    /* Force table to not be like tables anymore */
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    table td{
+        width: 100%;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid #ccc; }
+
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+}
