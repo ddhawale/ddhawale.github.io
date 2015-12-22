@@ -69,6 +69,14 @@ table.primary tr:nth-child(even) {
     text-align: center;
 }
 
+.mobile-only td{
+    text-align: center;
+}
+
+.mobile-only th{
+    text-align: center;
+}
+
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
@@ -105,13 +113,43 @@ only screen and (max-width: 760px),
         top: 6px;
         left: 6px;
         width: 45%;
-        padding-right: 10px;
+        text-align: left;
+        /*padding-right: 10px;*/
         white-space: nowrap;
     }
+
     image {
         width: 100%;
         border: 0;
         display: block;
         height: auto;
+    }
+
+    .mobile-only td:nth-of-type(1):before{
+        content: "Model Number:";
+    }
+    .mobile-only td:nth-of-type(2):before{
+        content: "Threaded size in BSP:";
+    }
+    .mobile-only td:nth-of-type(3):before{
+        content: "Rated Flow LPM:";
+    }
+    .mobile-only td:nth-of-type(4):before{
+        content: "Amm:";
+    }
+    .mobile-only td:nth-of-type(5):before{
+        content: "'B'A/Fmm:";
+    }
+    .mobile-only td:nth-of-type(6):before{
+        content: "'WTKGS:";
+    }
+    .mobile-only th{
+        display: none;
+    }
+
+    .mobile-only td{
+        padding-left: 60%;
+        padding-top: 1.5%;
+        text-align: left;
     }
 }
