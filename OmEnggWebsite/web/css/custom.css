@@ -78,8 +78,8 @@ table.primary tr:nth-child(even) {
     text-align: center;
 }
 
-.mobile-only logo {
-    align:center;
+.customLogo .container-fluid .navbar-header .navbar-brand a{
+    color: white;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -165,5 +165,9 @@ only screen and (max-width: 760px),
 
     .carousel-inner > .item > img, .carousel-inner > .item > a > img {
             height:150px;
+    }
+
+    .logoTable td{
+        padding: 0%;
     }
 }
