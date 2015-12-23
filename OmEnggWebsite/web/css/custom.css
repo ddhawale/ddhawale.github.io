@@ -57,7 +57,8 @@ table.primary tr:nth-child(even) {
 
 .image_style{
     width: 300px;
-    height: 250px;
+    height: 300px;
+    border: 2px;
 }
 
 .table{
@@ -81,12 +82,11 @@ table.primary tr:nth-child(even) {
     align:center;
 }
 
-.carousel-inner > .item > img,
-        .carousel-inner > .item > a > img {
-        width: 70%;
-        margin: auto;
-        height: 345;
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height:346px;
 }
+
+
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
@@ -161,5 +161,9 @@ only screen and (max-width: 760px),
         padding-left: 70%;
         padding-top: 1.5%;
         text-align: left;
+    }
+
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+            height:150px;
     }
 }
