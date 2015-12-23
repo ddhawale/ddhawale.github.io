@@ -81,6 +81,12 @@ table.primary tr:nth-child(even) {
     align:center;
 }
 
+.carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+        height: 345;
+}
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {

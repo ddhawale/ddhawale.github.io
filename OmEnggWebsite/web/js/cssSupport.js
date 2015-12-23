@@ -68,6 +68,7 @@ function loadContainerAndMenu(menu) {
     openCollapse("mobile");
     loadContainer(menu);
 }
+
 function loadContainer(menu) {
     if (menu === "home_page") {
         $("#contents").load("home_page.html #home_page", function () {
