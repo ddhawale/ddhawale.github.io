@@ -20,7 +20,7 @@
     </style>
 -->
 </head>
-<body>
+<body onload="loadContainer('home_page')">
 <div class="bs-docs-section clearfix">
     <div class="row">
         <div class="col-lg-12">
@@ -39,10 +39,12 @@
                                 <table width="100%" align="auto">
                                     <tr>
                                         <td align="center">
-                                            <img src="../img/LOGO.jpg" height="50px" width="50px">
+                                            <a href="#" onclick="loadContainer('home_page')">
+                                                <img src="../img/LOGO.jpg" height="50px" width="50px">
+                                            </a>
                                         </td>
                                         <td align="right">
-                                            <b>Om Engineering</b>
+                                            <a href="#" onclick="loadContainer('home_page')"><b>Om Engineering</b></a>
                                         </td>
                                     </tr>
                                 </table>
@@ -51,21 +53,22 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                             <ul class="nav navbar-nav">
                                 <li>
-                                    <a href="#" onclick="loadContainer('home_page')">Home</a>
+                                    <a href="#" onclick="loadContainerAndMenu('home_page')">Home</a>
                                 </li>
                                 <li id="dropdown" class="dropdown" onmouseover="openDropdown(this.id);" onmouseout="openDropdown(this.id);">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                        aria-expanded="false">Products <span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
                                         <li><a href="#">Custom</a></li>
-                                        <li><a href="#" onclick="loadContainer('check_valve');">Check Valve</a></li>
+                                        <li><a href="#" onclick="loadContainerAndMenu('check_valve');">Check Valve</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#" onclick="loadContainer('place_order')">Place Order</a></li>
+                                <li><a href="#" onclick="loadContainerAndMenu('place_order')">Place Order</a></li>
+                                <li><a href="#" onclick="loadContainerAndMenu('contact_us')">Contact Us</a></li>
                             </ul>
 
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#" onclick="loadContainer('contact_us')">Contact Us</a></li>
+                                <li><a href="#" onclick="loadContainerAndMenu('about_us')">About</a></li>
                             </ul>
                         </div>
                     </div>
@@ -77,9 +80,9 @@
 <div class="container">
     <div id="contents">
     </div>
-
+</div>
     <br><br><br>
-    <footer>
+    <footer class="panel-footer">
         <div class="row">
             <div class="col-lg-12" align="center">
                 <p>Made by <a href="http://thomaspark.co" rel="nofollow">Pooja Latthe</a>. Contact her at <a
@@ -91,6 +94,32 @@
             </div>
         </div>
     </footer>
-</div>
+
+    <br><br><br>
+
+    <footer class="footer-basic-centered">
+
+        <p class="footer-company-motto">The company motto.</p>
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">Blog</a>
+            ·
+            <a href="#">Pricing</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Faq</a>
+            ·
+            <a href="#">Contact</a>
+            .
+
+        </p>
+
+        <p class="footer-company-name">Company Name © 2015</p>
+
+    </footer>
+
 </body>
 </html>

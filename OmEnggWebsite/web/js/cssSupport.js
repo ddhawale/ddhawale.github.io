@@ -64,8 +64,11 @@ function removeTag(obj) {
     obj.closest('div').remove();
 }
 
-function loadContainer(menu) {
+function loadContainerAndMenu(menu) {
     openCollapse("mobile");
+    loadContainer(menu);
+}
+function loadContainer(menu) {
     if (menu === "home_page") {
         $("#contents").load("home_page.html #home_page", function () {
             slideit();
@@ -78,8 +81,10 @@ function loadContainer(menu) {
         $('#contents').load('place_order.html #place_order');
     if (menu === "thanks")
         $('#contents').load('thanks.html #thanks');
-    if (menu === "contact_us") {
-        $('#contents').load('contact_us.html #contact_us', function () {
+    if (menu === "contact_us")
+        $('#contents').load('contact_us.html #contact_us');
+    if (menu === "about_us") {
+        $('#contents').load('about_us.html #about_us', function () {
             load_map();
         });
     }
