@@ -139,10 +139,10 @@ only screen and (max-width: 760px),
         content: "Rated Flow LPM:";
     }
     .mobile-only td:nth-of-type(4):before{
-        content: "Amm:";
+        content: "A mm:";
     }
     .mobile-only td:nth-of-type(5):before{
-        content: "'B'A/Fmm:";
+        content: "'B'A/F mm:";
     }
     .mobile-only td:nth-of-type(6):before{
         content: "'WTKGS:";
@@ -152,7 +152,7 @@ only screen and (max-width: 760px),
     }
 
     .mobile-only td{
-        padding-left: 60%;
+        padding-left: 80%;
         padding-top: 1.5%;
         text-align: left;
     }
