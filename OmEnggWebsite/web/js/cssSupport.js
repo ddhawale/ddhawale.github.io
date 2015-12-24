@@ -69,9 +69,14 @@ function loadContainerAndMenu(menu) {
     loadContainer(menu);
 }
 
+function startCarousal() {
+    $('#myCarousel').carousel({interval: 3000});
+}
+
 function loadContainer(menu) {
     if (menu === "home_page") {
         $("#contents").load("home_page.html #home_page", function () {
+            startCarousal();
             slideit();
             facility();
         });
