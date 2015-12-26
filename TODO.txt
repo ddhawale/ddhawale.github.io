@@ -6,6 +6,7 @@ MUST HAVE :
 3. Fix thanks and submit order redirection.
 4. Get actual site photos for slider
 5. Get other product details.
+6. Fix Footer on contact us page. -Done
 
 OPTIONAL (LOOK and FEEL):
 1. Make fixed menu bar.
