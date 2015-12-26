@@ -64,6 +64,11 @@ function removeTag(obj) {
     obj.closest('div').remove();
 }
 
+function loadThanks() {
+    window.location = "OmEnggWebsite/web/html/menubar.html";
+    loadContainer("thanks");
+}
+
 function loadContainerAndMenu(menu) {
     openCollapse("mobile");
     loadContainer(menu);
