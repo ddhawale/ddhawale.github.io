@@ -1,5 +1,23 @@
-1. Make Website secure by changing the location of all other files and menu files
-2. Use common font.
-3. Fix Brand name.
-4. Make formspree data secure.
-5. Fix thanks redirection.
+Pending tasks :
+
+MUST HAVE :
+1. Use common font.
+2. Fix Brand name.
+3. Fix thanks and submit order redirection.
+
+
+OPTIONAL (LOOK and FEEL):
+1. Make fixed menu bar.
+2. Add border to map.
+3. Try to club about us and contact us page.
+4. Use some other fancy footer .
+5. Make Website secure by changing the location of all other files and menu files
+6. Make formspree data secure.
+
+Who is working on what?
+
+Pooja :
+
+
+Dinkar :
+1. Common Font related changes and design related changes.
