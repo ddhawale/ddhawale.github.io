@@ -1,7 +1,7 @@
 Pending tasks :
 
 MUST HAVE :
-1. Use common font.
+1. Use common font. - Done
 2. Fix Brand name.
 3. Fix thanks and submit order redirection.
 4. Get actual site photos for slider
@@ -21,4 +21,4 @@ Pooja :
 
 
 Dinkar :
-1. Common Font related changes and design related changes.
+1. Fix thanks and submit order redirection.
