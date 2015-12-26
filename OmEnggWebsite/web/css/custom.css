@@ -1,3 +1,7 @@
+* {
+    font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .iframe-styling{
     border: none;
 }
@@ -17,14 +21,12 @@
 }
 
 .heading_style {
-    font-family: "Helvetica Neue";
     font-weight: bold;
     color: inherit;
     font-size: 25px;
 }
 
 .text_style {
-    font-family: Georgia;
     font-size: 16px;
     line-height: 1.5;
     color: inherit;
