@@ -8,11 +8,13 @@ MUST HAVE :
 5. Get other product details.
 6. Fix Footer on contact us page. -Done
 7. Cancel should clear all 'oder more' divs.
+8. Check all links/
+9. Test Everything.
 
 OPTIONAL (LOOK and FEEL):
 1. Make fixed menu bar. - Done
 2. Add border to map.
-3. Use some other fancy footer .
+3. Use some other fancy footer . - Done
 4. Make Website secure by changing the location of all other files and menu files
 5. Make formspree data secure.
 
@@ -22,7 +24,7 @@ Pooja :
 
 
 Dinkar :
-1. Use some other fancy footer .
+1. Add border to map.
 
 
 ============================== Learnings ===========================

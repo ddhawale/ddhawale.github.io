@@ -23,6 +23,10 @@
     margin-top: -3em;
 }
 
+.footer-company-name {
+    color: #0CE3AC;
+}
+
 .iframe-styling{
     border: none;
 }
