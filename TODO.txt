@@ -1,4 +1,4 @@
-Pending tasks :
+========================== Pending tasks : =========================
 
 MUST HAVE :
 1. Use common font. - Done
@@ -12,15 +12,31 @@ MUST HAVE :
 OPTIONAL (LOOK and FEEL):
 1. Make fixed menu bar. - Done
 2. Add border to map.
-3. Try to club about us and contact us page.
-4. Use some other fancy footer .
-5. Make Website secure by changing the location of all other files and menu files
-6. Make formspree data secure.
+3. Use some other fancy footer .
+4. Make Website secure by changing the location of all other files and menu files
+5. Make formspree data secure.
 
-Who is working on what?
+==================== Who is working on what? =======================
 
 Pooja :
 
 
 Dinkar :
 1. Use some other fancy footer .
+
+
+============================== Learnings ===========================
+
+1. Lastly used css gets applied on top of all previously imported css in page.
+e.g. 
+<import a>
+<import b>
+'b' holds higher priority.
+
+2. Style of first used class gets applied on content. 
+e.g.
+class= "a b"
+'a' holds higher priority.
+
+3. Even if u import contents from other page, style (css/js) of existing page gets applied.
+e.g menubar.html
