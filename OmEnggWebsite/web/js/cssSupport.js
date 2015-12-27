@@ -65,7 +65,8 @@ function removeTag(obj) {
 }
 
 function loadThanks() {
-    window.location = "OmEnggWebsite/web/html/menubar.html";
+    alert('Thank you for submitting your query with us. We will get back to you in 2-3 working days.');
+    window.location = "menubar.html";
     loadContainer("thanks");
 }
 
