@@ -3,10 +3,11 @@ Pending tasks :
 MUST HAVE :
 1. Use common font. - Done
 2. Fix Brand name.
-3. Fix thanks and submit order redirection.
+3. Fix thanks and submit order redirection. - Working but badly.
 4. Get actual site photos for slider
 5. Get other product details.
 6. Fix Footer on contact us page. -Done
+7. Cancel should clear all 'oder more' divs.
 
 OPTIONAL (LOOK and FEEL):
 1. Make fixed menu bar.
