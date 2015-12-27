@@ -10,7 +10,7 @@ MUST HAVE :
 7. Cancel should clear all 'oder more' divs.
 
 OPTIONAL (LOOK and FEEL):
-1. Make fixed menu bar.
+1. Make fixed menu bar. - Done
 2. Add border to map.
 3. Try to club about us and contact us page.
 4. Use some other fancy footer .
@@ -23,4 +23,4 @@ Pooja :
 
 
 Dinkar :
-1. Make fixed menu bar.
+1. Use some other fancy footer .
