@@ -2,6 +2,26 @@
  * Created by om on 26-Nov-15.
  */
 
+var product_images = new Array(); // create new array to preload images
+product_images[0] = new Image(); // create new instance of image object
+product_images[0].src = "../img/logo.png"; // set image src property to image path, preloading image in the process
+product_images[1] = new Image();
+product_images[1].src = "../img/non_return_valve.jpg";
+product_images[2] = new Image();
+product_images[2].src = "../img/logo.png";
+
+var step = 0;
+
+var facilityimages = new Array(); // create new array to preload images
+facilityimages[0] = new Image(); // create new instance of image object
+facilityimages[0].src = "../img/machining.jpg"; // set image src property to image path, preloading image in the process
+facilityimages[1] = new Image();
+facilityimages[1].src = "../img/testing.jpg";
+facilityimages[2] = new Image();
+facilityimages[2].src = "../img/marking.jpg";
+
+var facilitystep = 0;
+
 function redirectHome() {
     window.location = "OmEnggWebsite/html/menubar.html";
 }
@@ -121,26 +141,6 @@ function createFormField() {
     return attach;
 }
 
-var product_images = new Array(); // create new array to preload images
-product_images[0] = new Image(); // create new instance of image object
-product_images[0].src = "../img/logo.png"; // set image src property to image path, preloading image in the process
-product_images[1] = new Image();
-product_images[1].src = "../img/non_return_valve.jpg";
-product_images[2] = new Image();
-product_images[2].src = "../img/logo.png";
-
-var step = 0;
-
-var facilityimages = new Array(); // create new array to preload images
-facilityimages[0] = new Image(); // create new instance of image object
-facilityimages[0].src = "../img/machining.jpg"; // set image src property to image path, preloading image in the process
-facilityimages[1] = new Image();
-facilityimages[1].src = "../img/testing.jpg";
-facilityimages[2] = new Image();
-facilityimages[2].src = "../img/marking.jpg";
-
-var facilitystep = 0;
-
 function slideit() {
     //if browser does not support the image object, exit.
     if (!document.images)
@@ -165,4 +165,8 @@ function facility() {
         facilitystep = 0;
     //call function "slideit()" every 2.5 seconds
     setTimeout("facility()", 2500);
+}
+
+function clearAll(){
+    $("div.order_more").remove();
 }

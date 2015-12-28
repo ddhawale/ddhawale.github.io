@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ad2eb68-f66e-4a77-9779-8f5ca343a11b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmEnggWebsite/web/js/cssSupport.js" afterPath="$PROJECT_DIR$/OmEnggWebsite/web/js/cssSupport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmEnggWebsite/web/html/place_order.html" afterPath="$PROJECT_DIR$/OmEnggWebsite/web/html/place_order.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dinkarsRepo.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="menubar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/html/menubar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64893615">
-              <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.10638298">
+              <caret line="23" column="60" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -40,6 +41,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-15.0">
               <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="place_order.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/html/place_order.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-32.346153">
+              <caret line="133" column="82" selection-start-line="133" selection-start-column="74" selection-end-line="133" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -58,9 +69,23 @@
       <file leaf-file-name="cssSupport.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/js/cssSupport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
-              <folding />
+            <state vertical-scroll-proportion="-15.24138">
+              <caret line="170" column="33" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
+              <folding>
+                <element signature="n#!!block;n#redirectHome#0" expanded="false" />
+                <element signature="n#!!block;n#openDropdown#0" expanded="false" />
+                <element signature="n#!!block;n#openCollapse#0" expanded="false" />
+                <element signature="n#!!block;n#load_map#0" expanded="false" />
+                <element signature="n#!!block;n#orderMore#0" expanded="false" />
+                <element signature="n#!!block;n#removeTag#0" expanded="false" />
+                <element signature="n#!!block;n#loadThanks#0" expanded="false" />
+                <element signature="n#!!block;n#loadContainerAndMenu#0" expanded="false" />
+                <element signature="n#!!block;n#startCarousal#0" expanded="false" />
+                <element signature="n#!!block;n#loadContainer#0" expanded="false" />
+                <element signature="n#!!block;n#createFormField#0" expanded="false" />
+                <element signature="n#!!block;n#slideit#0" expanded="false" />
+                <element signature="n#!!block;n#facility#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,11 +124,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/OmEnggWebsite/web/html/check_valve.html" />
-        <option value="$PROJECT_DIR$/OmEnggWebsite/web/html/place_order.html" />
         <option value="$PROJECT_DIR$/OmEnggWebsite/web/css/custom.css" />
-        <option value="$PROJECT_DIR$/OmEnggWebsite/web/js/cssSupport.js" />
         <option value="$PROJECT_DIR$/OmEnggWebsite/web/html/home_page.html" />
         <option value="$PROJECT_DIR$/OmEnggWebsite/web/html/menubar.html" />
+        <option value="$PROJECT_DIR$/OmEnggWebsite/web/html/place_order.html" />
+        <option value="$PROJECT_DIR$/OmEnggWebsite/web/js/cssSupport.js" />
       </list>
     </option>
   </component>
@@ -219,7 +244,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,12 +543,12 @@
       <workItem from="1450806599246" duration="177000" />
       <workItem from="1450850558381" duration="2245000" />
       <workItem from="1450881088136" duration="877000" />
-      <workItem from="1451316794644" duration="1862000" />
+      <workItem from="1451316794644" duration="3644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8021000" />
+    <option name="totallyTimeSpent" value="9803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1358" height="726" extended-state="0" />
@@ -614,7 +639,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#redirectHome#0" expanded="false" />
+            <element signature="n#!!block;n#openDropdown#0" expanded="false" />
+            <element signature="n#!!block;n#openCollapse#0" expanded="false" />
+            <element signature="n#!!block;n#load_map#0" expanded="false" />
+            <element signature="n#!!block;n#orderMore#0" expanded="false" />
+            <element signature="n#!!block;n#removeTag#0" expanded="false" />
+            <element signature="n#!!block;n#loadThanks#0" expanded="false" />
+            <element signature="n#!!block;n#loadContainerAndMenu#0" expanded="false" />
+            <element signature="n#!!block;n#startCarousal#0" expanded="false" />
+            <element signature="n#!!block;n#loadContainer#0" expanded="false" />
+            <element signature="n#!!block;n#createFormField#0" expanded="false" />
+            <element signature="n#!!block;n#slideit#0" expanded="false" />
+            <element signature="n#!!block;n#facility#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -705,14 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/html/place_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="38" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/img/icons/chevron-left.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -742,14 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/js/cssSupport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="139" column="43" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/html/about_us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.115385">
@@ -766,10 +789,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/html/place_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.346153">
+          <caret line="133" column="82" selection-start-line="133" selection-start-column="74" selection-end-line="133" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/js/cssSupport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.24138">
+          <caret line="170" column="33" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!block;n#redirectHome#0" expanded="false" />
+            <element signature="n#!!block;n#openDropdown#0" expanded="false" />
+            <element signature="n#!!block;n#openCollapse#0" expanded="false" />
+            <element signature="n#!!block;n#load_map#0" expanded="false" />
+            <element signature="n#!!block;n#orderMore#0" expanded="false" />
+            <element signature="n#!!block;n#removeTag#0" expanded="false" />
+            <element signature="n#!!block;n#loadThanks#0" expanded="false" />
+            <element signature="n#!!block;n#loadContainerAndMenu#0" expanded="false" />
+            <element signature="n#!!block;n#startCarousal#0" expanded="false" />
+            <element signature="n#!!block;n#loadContainer#0" expanded="false" />
+            <element signature="n#!!block;n#createFormField#0" expanded="false" />
+            <element signature="n#!!block;n#slideit#0" expanded="false" />
+            <element signature="n#!!block;n#facility#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OmEnggWebsite/web/html/menubar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64893615">
-          <caret line="104" column="20" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.10638298">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="60" />
           <folding />
         </state>
       </provider>

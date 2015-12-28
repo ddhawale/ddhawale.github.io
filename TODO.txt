@@ -4,17 +4,17 @@ Done:
 6. Fix Footer on contact us page. -Done
 1. Make fixed menu bar. - Done
 3. Use some other fancy footer . - Done
+4. Cancel should clear all 'oder more' divs. - Done
 3. Fix thanks and submit order redirection. - Working but badly. Considering it as done for now.
 
 MUST HAVE :
 1. Fix Brand name.
 2. Get actual site photos for slider.
 3. Get other product details.
-4. Cancel should clear all 'oder more' divs.
-5. Check all links/
-6. Test Everything.
-7. Make formspree data secure.
-8. Increase the size of slide images on home page
+4. Check all links/
+5. Test Everything.
+6. Make formspree data secure.
+7. Increase the size of slide images on home page
 
 OPTIONAL (LOOK and FEEL):
 1. Add border to map.
@@ -23,16 +23,16 @@ OPTIONAL (LOOK and FEEL):
 ==================== Who is working on what? =======================
 
 Pooja :
-1. Cancel should clear all 'oder more' divs.
-2. Get actual site photos for slider.
-3. Get actual site photos for slider.
-4. Get actual site photos for slider.
+1. Get actual site photos for slider.
+2. Get other product details.
+3. Make formspree data secure.
+4. Make Website secure by changing the location of all other files and menu files
 
 Dinkar :
 1. Add border to map.
 2. Check all links/(I have done U check Once)
 3. Test Everything.(I have done U check Once)
-4. Get actual site photos for slider.
+4. Increase the size of slide images on home page
 
 
 ============================== Learnings ===========================
@@ -50,3 +50,6 @@ class= "a b"
 
 3. Even if u import contents from other page, style (css/js) of existing page gets applied.
 e.g menubar.html
+
+4. Never make changes in bootstrap.css. Override the css by increasing the order of class
+e.g customLogo
