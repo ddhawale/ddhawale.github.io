@@ -133,11 +133,11 @@ var step = 0;
 
 var facilityimages = new Array(); // create new array to preload images
 facilityimages[0] = new Image(); // create new instance of image object
-facilityimages[0].src = "../img/logo.png"; // set image src property to image path, preloading image in the process
+facilityimages[0].src = "../img/machining.jpg"; // set image src property to image path, preloading image in the process
 facilityimages[1] = new Image();
-facilityimages[1].src = "../img/non_return_valve.jpg";
+facilityimages[1].src = "../img/testing.jpg";
 facilityimages[2] = new Image();
-facilityimages[2].src = "../img/logo.png";
+facilityimages[2].src = "../img/marking.jpg";
 
 var facilitystep = 0;
 
