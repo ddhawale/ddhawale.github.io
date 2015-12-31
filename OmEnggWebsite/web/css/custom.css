@@ -113,6 +113,16 @@ table.primary tr:nth-child(even) {
     height:346px;
 }
 
+.modal-content{
+    background-color: white;
+}
+.modal-header{
+    background-color: #009871;
+}
+.bootstrap-dialog-message{
+    color: black;
+}
+
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {

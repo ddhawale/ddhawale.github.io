@@ -26,13 +26,6 @@ function redirectHome() {
     window.location = "OmEnggWebsite/html/menubar.html";
 }
 
-function openDropdown(clicked_id) {
-
-    if (document.getElementById(clicked_id).className === "dropdown open")
-        document.getElementById(clicked_id).className = "dropdown ";
-    else
-        document.getElementById(clicked_id).className = "dropdown open";
-}
 
 function openCollapse(clicked_id) {
 
@@ -45,6 +38,7 @@ function openCollapse(clicked_id) {
         document.getElementById("bs-example-navbar-collapse-2").className = "collapse navbar-collapse";
     }
 }
+
 
 function load_map() {
     var position = new google.maps.LatLng(15.815952, 74.495882);
@@ -169,4 +163,12 @@ function facility() {
 
 function clearAll(){
     $("div.order_more").remove();
+}
+
+function showThanksForContact() {
+    BootstrapDialog.alert('Thank you for submitting your query with us. We will get back to you in 2-3 working days.');
+}
+
+function showThanksForOrder() {
+    BootstrapDialog.alert('Thank you for showing interest. \n\n We have received the request for your order and it will be shipped to you shortly.');
 }
