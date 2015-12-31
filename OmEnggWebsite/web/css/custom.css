@@ -2,6 +2,13 @@
     font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
 .bs-component {
     left: 0;
     position: fixed;
@@ -13,6 +20,8 @@
 .container {
     padding-top: 60px;
     z-index: 3;
+    min-height:100%;
+    position:relative;
 }
 
 .footer {
