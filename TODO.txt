@@ -1,11 +1,5 @@
 ========================== Pending tasks : =========================
 Done:
-1. Use common font. - Done
-6. Fix Footer on contact us page. -Done
-1. Make fixed menu bar. - Done
-3. Use some other fancy footer . - Done
-4. Cancel should clear all 'oder more' divs. - Done
-3. Fix thanks and submit order redirection. - Working but badly. Considering it as done for now.
 
 MUST HAVE :
 1. Fix Brand name.
@@ -20,6 +14,22 @@ OPTIONAL (LOOK and FEEL):
 1. Add border to map.
 2. Make Website secure by changing the location of all other files and menu files
 
+============================ Test results ===============================
+Both:
+   1. Point all social links to actual links (if present)
+   2. Add container for 'Our Facilities' as well, or remove from both.
+   3. Add validations wherever required (contact us/place order)
+   4. On submit (contact/order) you see pop up, this pop up stays for a while. Fix redirection, as does not wait for user to click 'ok'.
+
+Windows Browser: (FireFox)
+   1. Reduce space between Menubar and container
+
+Mobile Browser:
+   1. Fix Brand Name (Logo and name)
+   2. Remove Table cell borders from Logo, Footer 
+   3. Make slider responsive in 'Our Products' and 'Our Facilities'
+   4. Try to put space between 'Quantity' and 'Order more' also 'Add / Cancel'
+
 ==================== Who is working on what? =======================
 
 Pooja :
@@ -29,10 +39,12 @@ Pooja :
 4. Make Website secure by changing the location of all other files and menu files
 
 Dinkar :
-1. Add border to map.
-2. Check all links/(I have done U check Once)
-3. Test Everything.(I have done U check Once)
-4. Increase the size of slide images on home page
+Tasks                                               Status
+
+1. Add border to map.                             - In Progress
+2. Check all links/(I have done U check Once)     - Done
+3. Test Everything.(I have done U check Once)     - Done
+4. Increase the size of slide images on home page - Waiting for Pics
 
 
 ============================== Learnings ===========================
