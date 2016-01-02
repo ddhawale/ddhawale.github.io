@@ -4,11 +4,11 @@
 
 var product_images = new Array(); // create new array to preload images
 product_images[0] = new Image(); // create new instance of image object
-product_images[0].src = "../img/logo.png"; // set image src property to image path, preloading image in the process
+product_images[0].src = "../img/checkValve.jpg"; // set image src property to image path, preloading image in the process
 product_images[1] = new Image();
-product_images[1].src = "../img/non_return_valve.jpg";
+product_images[1].src = "../img/maleEnd.jpg";
 product_images[2] = new Image();
-product_images[2].src = "../img/logo.png";
+product_images[2].src = "../img/adjCracking.jpg";
 
 var step = 0;
 
