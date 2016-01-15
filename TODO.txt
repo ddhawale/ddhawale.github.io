@@ -42,9 +42,7 @@ Dinkar :
 Tasks                                               Status
 
 1. Add border to map.                             - In Progress
-2. Check all links/(I have done U check Once)     - Done
-3. Test Everything.(I have done U check Once)     - Done
-4. Increase the size of slide images on home page - Waiting for Pics
+4. Increase the size of slide images on home page - In Progress
 
 
 ============================== Learnings ===========================
