@@ -33,8 +33,8 @@ Mobile Browser:
 ==================== Who is working on what? =======================
 
 Pooja :
-1. Get actual site photos for slider.
-2. Get other product details.
+1. Get actual site photos for slider. - Done
+2. Get other product details. - In Progress
 3. Make formspree data secure.
 4. Make Website secure by changing the location of all other files and menu files
 

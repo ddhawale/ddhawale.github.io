@@ -26,7 +26,6 @@ function redirectHome() {
     window.location = "OmEnggWebsite/html/menubar.html";
 }
 
-
 function openCollapse(clicked_id) {
 
     if (document.getElementById(clicked_id).className === "navbar-toggle collapsed") {
@@ -39,11 +38,10 @@ function openCollapse(clicked_id) {
     }
 }
 
-
 function load_map() {
     var position = new google.maps.LatLng(15.815952, 74.495882);
     var myOptions = {
-        zoom: 10,
+        zoom: 50,
         center: position,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
@@ -100,6 +98,8 @@ function loadContainer(menu) {
             facility();
         });
     }
+    if (menu === "custom_page")
+        $('#contents').load('custom_page.html #custom_page');
     if (menu === "check_valve")
         $('#contents').load('check_valve.html #check_valve');
     if (menu === "place_order")
